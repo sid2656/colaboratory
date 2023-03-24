@@ -1,3 +1,6 @@
+%cd /content
+%mkdir /content/src
+%mkdir /content/out
 !git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
 %cd /content/stable-diffusion-webui
 %cp /content/colaboratory/scripts/multi_frame_render.py /content/stable-diffusion-webui/scripts
